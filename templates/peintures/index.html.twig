@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello {{controller_name}}!{% endblock %}
+
+{% block body %}
+
+<section class="œuvres">
+
+    <article>
+        <h2>Le Rêve</h2>
+        <div class="metadata">Œuvre de Pablo Picasso</div>
+        <div class="content">
+            <img src="https://i.pinimg.com/originals/4a/55/e4/4a55e45f276de9167520d06d23d23225.jpg" alt="">
+            <p>Réalisé en 1932. Il s'agit d'une huile sur toile de 130 × 97 cm représentant le portrait de Marie-Thérèse Walter, 
+                sa jeune compagne d'alors, assise dans un fauteuil mais décrivant en réalité une représentation érotique intense et colorée. 
+                La toile a été peinte en une seule après-midi le 24 janvier 1932. Elle appartient à la période néoclassique de Picasso et
+                est exposée à l'Acquavella Gallery à New York.</p>
+        </div>
+    </article>
+    <article>
+        <h2>La Nostalgie de l'infini</h2>
+        <div class="metadata">Œuvre de Giorgio De Chirico</div>
+        <div class="content">
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/69/TheNostalgiaoftheInfinite.jpg" alt="">
+            <p>Bien que le tableau soit daté de 1911, cette date est remise en question pour 1912-1913 et 1913-1914.
+                Le sujet du tableau est une grande tour. La scène est frappée par une lumière du soir faible et angulaire. 
+                Au premier plan, sous la tour, deux petites figures sombres ressemblant à celles des futures œuvres de Salvador Dalí.
+                Elle est exposée au Museum of Modern Art de New York.
+            </p>
+        </div>
+    </article>
+    <article>
+        <h2>La Joconde</h2>
+        <div class="metadata">Œuvre de Léonard de Vinci</div>
+        <div class="content">
+            <img src="https://www.boutiquesdemusees.fr/uploads/photos/474/11220_xl.jpg" alt="">
+            <p>Réalisé entre 1503 et 1506 ou entre 1513 et 1516, et peut-être jusqu'à 1519, qui représente un portrait mi-corps, 
+                probablement celui de la Florentine Lisa Gherardini, épouse de Francesco del Giocondo. Acquise par François Ier, 
+                cette peinture à l'huile sur panneau de bois de peuplier de 77 × 53 cm est exposée au musée du Louvre à Paris.</p>
+        </div>
+    </article>
+
+</section>
+
+{% endblock %}

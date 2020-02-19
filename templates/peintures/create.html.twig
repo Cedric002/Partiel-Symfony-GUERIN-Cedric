@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<h1>Création d'un nouvel œuvre !</h1> <br><br>
+
+<form action="" method="post">
+    <input type="text" name="title" placeholder=" Nom de l'œuvre"> <br><br>
+    <input type="text" name="Artiste" placeholder=" Nom du Peintre"> <br> <br>
+    <input type="text" name="image" placeholder="Image de l'œuvre"> <br> <br>
+    <textarea name="content" placeholder="Présentation"></textarea> <br><br>
+    <button type="submit"> Créer</button>
+</form>
+
+{% endblock %}
